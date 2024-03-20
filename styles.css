@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#dice-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    border-radius: 10px;
+    color: white;
+}
+
+#red-die { background-color: red; }
+#blue-die { background-color: blue; }
+#green-die { background-color: green; }
+#yellow-die { background-color: yellow; color: black; }
+#white-die-1, #white-die-2 { background-color: white; color: black; }
